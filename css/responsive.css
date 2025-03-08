@@ -126,6 +126,81 @@
     .article-content p:first-letter {
         font-size: 2.5em;
     }
+
+/* 
+-------------------- */
+
+    nav ul {
+        gap: 0.8rem;
+    }
+
+/* Mobile navigation fixes */
+
+/* Hide the header on mobile views */
+@media (max-width: 768px) {
+    header {
+        display: none;
+    }
+    
+    /* Add site title to mobile nav */
+    .mobile-nav-title {
+        font-family: var(--font-headings);
+        color: var(--primary-color);
+        font-size: 1.5rem;
+        font-weight: normal;
+        margin: 0;
+        flex-grow: 1;
+        text-align: center;
+    }
+    
+    /* Reposition mobile nav elements */
+    .mobile-nav-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0.5rem 0;
+        width: 100%;
+    }
+    
+    /* Move hamburger to the right */
+    .hamburger-menu {
+        margin: 0;
+        margin-left: auto;
+    }
+    
+    /* Reduce height of menu items */
+    .desktop-nav li {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .desktop-nav a {
+        padding: 6px 0;
+        font-size: 1rem;
+    }
+    
+    /* Reduce overall menu spacing */
+    nav .container {
+        padding: 0 15px;
+    }
+    
+    nav.menu-open .desktop-nav {
+        padding: 1rem 0;
+    }
+    
+    /* Additional spacer for layout */
+    .nav-spacer {
+        width: 22px; /* Same width as hamburger */
+        visibility: hidden;
+    }
+    
+    /* Tighten overall nav height */
+    nav {
+        padding: 0.2rem 0;
+    }
+}
+
+ /* ----------------------    */
 }
 
 @media (max-width: 576px) {
