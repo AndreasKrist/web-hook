@@ -1,0 +1,280 @@
+/* Responsive design */
+@media (max-width: 1200px) {
+    .container {
+        max-width: 900px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 700px;
+    }
+    
+    body {
+        font-size: 17px;
+    }
+    
+    .site-title {
+        font-size: 2.2rem;
+    }
+    
+    .article-title {
+        font-size: 2.4rem;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+    }
+    
+    .featured-image {
+        height: 350px;
+    }
+    
+    .articles-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .section-header::before, 
+    .section-header::after {
+        width: 60px;
+    }
+    
+    .section-header::before {
+        left: calc(50% - 90px);
+    }
+    
+    .section-header::after {
+        right: calc(50% - 90px);
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    
+    .container {
+        padding: 0 20px;
+    }
+    
+    .site-title {
+        font-size: 2rem;
+    }
+    
+    .site-description {
+        font-size: 1rem;
+    }
+    
+    .articles-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .article-title {
+        font-size: 2rem;
+    }
+    
+    .featured-image {
+        height: 300px;
+    }
+    
+    .about-section {
+        padding: 1.5rem;
+    }
+    
+    .about-section::before {
+        top: 10px;
+        left: 10px;
+        right: 10px;
+        bottom: 10px;
+    }
+    
+    .about-image-centered img {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .about-title {
+        font-size: 2rem;
+    }
+    
+    /* Improve card readability on mobile */
+    .card-content {
+        padding: 1.2rem;
+    }
+    
+    .card-excerpt {
+        margin-bottom: 1rem;
+    }
+    
+    .card-quote {
+        padding: 0.6rem 0.8rem;
+        font-size: 0.9rem;
+    }
+    
+    /* Hide decorative elements that take up space */
+    .section-header::before, 
+    .section-header::after {
+        display: none;
+    }
+    
+    /* Make the article content more comfortable to read */
+    .article-content {
+        padding: 1.5rem;
+    }
+    
+    .article-content p:first-letter {
+        font-size: 2.5em;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding: 0 15px;
+    }
+    
+    .article-title {
+        font-size: 1.8rem;
+    }
+    
+    .featured-image {
+        height: 220px;
+    }
+    
+    .section-title {
+        font-size: 1.8rem;
+    }
+    
+    .about-title {
+        font-size: 1.8rem;
+    }
+    
+    /* Optimize text for small screens */
+    .card-title {
+        font-size: 1.3rem;
+    }
+    
+    .article-content {
+        padding: 1.2rem;
+    }
+    
+    .article-content p {
+        line-height: 1.7;
+    }
+    
+    /* Remove the drop cap on very small screens */
+    .article-content p:first-letter {
+        font-size: inherit;
+        float: none;
+        margin-right: 0;
+        color: inherit;
+    }
+    
+    /* Adjust blockquotes for small screens */
+    .article-content blockquote {
+        padding: 0.8rem 1rem;
+        margin: 1.5rem 0;
+    }
+    
+    /* Increase touch target size for better mobile interaction */
+    .read-more {
+        padding: 5px 0;
+        display: inline-block;
+    }
+}
+
+/* Specific optimizations for very small devices */
+@media (max-width: 400px) {
+    .site-title {
+        font-size: 1.7rem;
+    }
+    
+    .site-description {
+        font-size: 0.9rem;
+    }
+    
+    .card-image {
+        height: 180px;
+    }
+    
+    .featured-image {
+        height: 180px;
+    }
+    
+    /* Further optimize navigation */
+    nav ul {
+        gap: 0.8rem;
+    }
+    
+    nav a {
+        font-size: 0.95rem;
+        padding: 3px 6px;
+    }
+    
+    /* Fix line height for better readability */
+    .card-excerpt,
+    .article-content p {
+        line-height: 1.6;
+    }
+    
+    /* More comfortable spacing */
+    .about-bio {
+        padding: 0;
+    }
+    
+    .about-details {
+        margin-bottom: 1.5rem;
+    }
+    
+    .about-image-centered img {
+        width: 150px;
+        height: 150px;
+    }
+    
+    /* Better touch targets for mobile */
+    .card-content {
+        padding: 1rem;
+    }
+    
+    .read-more {
+        padding: 8px 0;
+        margin-top: 0.5rem;
+    }
+}
+
+/* Add specific optimizations for landscape orientation on mobile */
+@media (max-height: 500px) and (orientation: landscape) {
+    header {
+        padding: 1rem 0;
+    }
+    
+    .site-title {
+        font-size: 1.7rem;
+        margin-bottom: 0.2rem;
+    }
+    
+    .site-description {
+        font-size: 0.8rem;
+    }
+    
+    nav {
+        padding: 0.5rem 0;
+    }
+    
+    .section-header {
+        margin: 1.5rem 0 1rem;
+    }
+    
+    .articles-grid {
+        margin: 1.5rem 0;
+    }
+    
+    .about-image-centered {
+        margin-bottom: 1.5rem;
+    }
+    
+    .about-image-centered img {
+        width: 120px;
+        height: 120px;
+    }
+}
