@@ -64,7 +64,7 @@
         "category": "science",
         "excerpt": "Recent advances in quantum error correction promise to make large-scale quantum computation practical within the decade.",
         "quote": "The quantum computer is not just a faster computer—it represents a fundamentally different approach to information processing.",
-        "featured_image": "/api/placeholder/800/300",
+        "featured_image": "img/article/quantum.jpg",
         "content": [
           "The quantum computing field has reached a crucial inflection point with the demonstration of scalable error correction techniques at several leading laboratories. These advances suggest that the long-promised quantum advantage for practical problems may finally be within reach.",
           "Classical computers, even supercomputers, struggle with simulating quantum systems beyond about 50 qubits due to the exponential growth in computational requirements. This limitation has hampered progress in materials science, drug discovery, and fundamental physics. The recent breakthrough in error correction could allow quantum computers to simulate molecular interactions with unprecedented accuracy.",
@@ -83,7 +83,7 @@
         "category": "science",
         "excerpt": "Novel approaches to detecting dark matter particles could finally shed light on the mysterious substance that makes up most of the universe's mass.",
         "quote": "We can see the effects of dark matter's gravitational pull, but capturing the particles themselves has been like trying to photograph a black cat in a dark room.",
-        "featured_image": "/api/placeholder/800/300",
+        "featured_image": "img/article/darkmatter.jpg",
         "content": [
           "Dark matter, the invisible substance that appears to make up about 85% of the universe's mass, has eluded direct detection since its existence was first inferred in the 1930s. Recent innovations in detection technology, however, suggest we may be on the verge of a breakthrough in understanding this cosmic mystery.",
           "Traditional attempts to detect dark matter have focused on massive underground detectors designed to capture rare interactions between dark matter particles and normal matter. These experiments, while growing increasingly sensitive, have yet to produce definitive evidence of dark matter particles. The new approaches take fundamentally different paths.",
@@ -121,7 +121,7 @@
         "category": "philosophy",
         "excerpt": "The resurgence of Stoic philosophy offers practical tools for navigating an era of information overload, uncertainty, and environmental crisis.",
         "quote": "We suffer more often in imagination than in reality.",
-        "featured_image": "/api/placeholder/800/300",
+        "featured_image": "img/article/stoic.webp",
         "content": [
           "The ancient philosophy of Stoicism, developed in Athens around 300 BCE and refined by Roman thinkers like Seneca, Epictetus, and Marcus Aurelius, has experienced a remarkable revival in recent years. This resurgence reflects more than intellectual fashion—it suggests that Stoicism offers valuable resources for addressing distinctly modern problems.",
           "At its core, Stoicism emphasizes focusing on what lies within our control while accepting what does not. In an age where global information networks constantly expose us to problems we can neither fully understand nor individually solve, this distinction helps combat the anxiety and powerlessness many experience.",
@@ -140,7 +140,7 @@
         "category": "philosophy",
         "excerpt": "New approaches to the 'hard problem' suggest consciousness might not be a thing to be explained but a fundamental feature of reality to be recognized.",
         "quote": "Perhaps consciousness isn't something the brain produces but something the brain participates in.",
-        "featured_image": "/api/placeholder/800/300",
+        "featured_image": "img/article/conscious.png",
         "content": [
           "The nature of consciousness—how subjective experience arises from physical processes—remains one of philosophy's most intractable problems. Despite advances in neuroscience and cognitive psychology, the 'explanatory gap' between neural activity and lived experience seems as wide as ever. Recent philosophical approaches, however, suggest we might need to reconsider our basic assumptions about the problem itself.",
           "Philosopher David Chalmers famously distinguished between the 'easy problems' of consciousness (explaining specific functions like attention or memory) and the 'hard problem' (explaining why these functions are accompanied by subjective experience). The persistence of this hard problem has led some thinkers to explore more radical philosophical terrain.",
@@ -159,7 +159,7 @@
         "category": "story",
         "excerpt": "Despite unprecedented technological connectivity, loneliness rates are surging across developed nations, with profound implications for public health and social cohesion.",
         "quote": "We've built a world optimized for convenient transactions rather than meaningful interactions.",
-        "featured_image": "/api/placeholder/800/300",
+        "featured_image": "img/article/alone.jpeg",
         "content": [
           "The data is unambiguous: loneliness has reached epidemic proportions in many developed nations. A survey by the American Psychological Association found that 61% of Americans report feeling lonely at least once a week, while the UK government considered the problem serious enough to appoint a 'Minister for Loneliness' in 2018. These trends preceded the COVID-19 pandemic but were accelerated by it, revealing structural vulnerabilities in how we've organized our social lives.",
           "Counterintuitively, this loneliness epidemic has coincided with unprecedented technological connectivity. The average smartphone user checks their device 96 times daily and maintains hundreds of 'connections' on social platforms. Yet these interactions often lack the depth and embodied presence that fulfill our evolved social needs. As psychologist Sherry Turkle observes, we're 'alone together'—physically isolated while digitally tethered.",
@@ -178,7 +178,7 @@
         "category": "story",
         "excerpt": "Urban planners globally are embracing the '15-minute city' concept, where daily necessities are accessible within a short walk or bike ride, revitalizing community life while reducing emissions.",
         "quote": "The 15-minute city isn't just about convenience—it's about reclaiming time for living rather than commuting.",
-        "featured_image": "/api/placeholder/800/300",
+        "featured_image": "img/article/urban.jpg",
         "content": [
           "The concept of the '15-minute city'—where residents can access daily necessities like grocery stores, schools, parks, and healthcare within a quarter-hour walk or bike ride—has moved from theoretical urbanism to practical policy in cities worldwide. Paris mayor Anne Hidalgo made it a centerpiece of her administration, while Melbourne, Barcelona, and Portland have adopted similar frameworks under various names.",
           "This approach represents a fundamental rethinking of urban organization. For decades, cities developed around functional separation, with residential areas distinct from commercial and industrial zones, all connected by transportation infrastructure primarily designed for cars. The 15-minute framework instead prioritizes proximity and mixed-use development, reducing the need for long-distance travel within the city.",
@@ -197,7 +197,7 @@
         "category": "books",
         "excerpt": "Dostoevsky's final novel presents one of literature's most profound explorations of faith, suffering, and moral responsibility.",
         "quote": "If God does not exist, everything is permitted.",
-        "featured_image": "/api/placeholder/800/300",
+        "featured_image": "img/article/brother.jpg",
         "content": [
           "Fyodor Dostoevsky's final novel, 'The Brothers Karamazov,' stands as perhaps literature's most penetrating exploration of faith and doubt. Written near the end of the author's life and published in 1880, the novel presents philosophical and theological questions not as abstract intellectual puzzles but as vital matters that determine how we live and what kind of world we create together.",
           "The novel's emotional and intellectual core is the famous 'Grand Inquisitor' chapter, where Ivan Karamazov tells a story of Christ returning during the Spanish Inquisition only to be arrested by Church authorities. The Inquisitor's monologue presents a devastating critique of freedom: humans, he argues, cannot bear the burden of moral choice and prefer security, even under tyranny, to the terrible responsibility of freedom.",
@@ -216,7 +216,7 @@
         "category": "science",
         "excerpt": "Recent studies using advanced neuroimaging techniques reveal how contemplative practices produce measurable changes in brain structure and function.",
         "quote": "What we're discovering is that meditation doesn't just subjectively affect your mood—it objectively changes your brain.",
-        "featured_image": "/api/placeholder/800/300",
+        "featured_image": "img/article/meditation.webp",
         "content": [
           "The ancient practice of meditation, once primarily associated with spiritual traditions, has become the subject of rigorous scientific investigation. Advanced neuroimaging technologies now allow researchers to observe how regular meditation practice physically reshapes the brain, offering insights into its well-documented psychological benefits.",
           "Longitudinal studies at the Center for Healthy Minds have demonstrated that even eight weeks of regular meditation practice produces measurable changes in brain structure. MRI scans show increased gray matter density in regions associated with attention, sensory processing, and introspective awareness. These changes correlate with improved performance on cognitive tasks and enhanced emotional regulation.",
@@ -235,7 +235,7 @@
         "category": "science",
         "excerpt": "After decades of theoretical development, string theory faces increasing scrutiny over its lack of experimental evidence, raising questions about the nature of scientific progress.",
         "quote": "The elegance of the mathematics has been seductive, but science ultimately requires confrontation with experimental reality.",
-        "featured_image": "/api/placeholder/800/300",
+        "featured_image": "img/article/string.webp",
         "content": [
           "String theory, once hailed as the most promising 'theory of everything,' finds itself at a critical juncture after more than four decades of intensive development. The mathematical framework, which proposes that the fundamental building blocks of the universe are tiny vibrating strings rather than point-like particles, has reached unprecedented levels of mathematical sophistication while simultaneously facing growing criticism over the absence of experimental verification.",
           "The theory's intellectual appeal remains powerful. By treating particles as different vibrational modes of fundamental strings, it elegantly resolves the conflict between quantum mechanics and general relativity that has bedeviled physics since the early 20th century. It also unifies all four fundamental forces within a single mathematical framework—an achievement that has eluded all other approaches.",
@@ -254,7 +254,7 @@
         "category": "philosophy",
         "excerpt": "While hyperconnectivity becomes the norm, research reveals the cognitive and creative benefits of periodic solitude, suggesting a reevaluation of how we balance social connection with time alone.",
         "quote": "Solitude is not absence—it is presence with oneself.",
-        "featured_image": "/api/placeholder/800/300",
+        "featured_image": "img/article/solitude.jpg",
         "content": [
           "In our hyperconnected world, solitude has become an increasingly rare experience. The average smartphone user checks their device 96 times daily—once every 10 minutes of waking life. Social media platforms, messaging apps, and the culture of constant availability have made genuine solitude—time spent alone without external input or interaction—something that many must consciously seek rather than naturally experience.",
           "This shift raises important questions about cognitive and emotional well-being. Research in cognitive psychology suggests that solitude serves essential functions in cognitive processing, creativity, and identity formation. Without periods of relative isolation from external stimuli, the brain struggles to consolidate experiences, process complex emotions, and engage in the deep thinking necessary for creative insights.",
@@ -273,7 +273,7 @@
         "category": "story",
         "excerpt": "As AI language models produce increasingly sophisticated prose and poetry, writers and readers grapple with questions of creativity, authenticity, and the future of human expression.",
         "quote": "Perhaps AI won't replace writers but will change what we value in writing—making the distinctly human elements all the more precious.",
-        "featured_image": "/api/placeholder/800/300",
+        "featured_image": "img/article/ai.jpg",
         "content": [
           "The literary world is experiencing a quiet revolution as artificial intelligence systems demonstrate increasingly sophisticated capabilities in creative writing. From poetry to fiction to journalism, AI language models can now generate content that many readers find indistinguishable from human-written text, raising profound questions about the nature of creativity and the future of writing as a human art form.",
           "Technical advances in large language models have enabled these systems to produce coherent narratives with nuanced character development, stylistic consistency, and thematic depth that would have seemed impossible just a few years ago. The latest models can mimic specific authors' styles, adapt tone for different audiences, and even incorporate feedback to refine their output—capabilities once considered uniquely human.",
@@ -292,7 +292,7 @@
         "category": "philosophy",
         "excerpt": "Contemporary philosophers are finding fruitful ground in dissolving the artificial boundaries between Eastern and Western philosophical traditions.",
         "quote": "The geography of ideas has always been more complex than our typical East-West categorizations suggest.",
-        "featured_image": "/api/placeholder/800/300",
+        "featured_image": "img/article/westeast.jpeg",
         "content": [
           "The traditional division between 'Eastern' and 'Western' philosophy—a classification that places thinkers like Plato, Kant, and Wittgenstein in one category while assigning Confucius, Nagarjuna, and Dōgen to another—has been increasingly questioned by contemporary philosophers who recognize this boundary as both historically inaccurate and intellectually limiting.",
           "The geography of ideas has always been more complex than our typical East-West categorizations suggest. The ancient Greek philosophers were in dialogue with Egyptian and Persian thought. Islamic philosophy preserved and extended Aristotelian traditions during Europe's medieval period. Buddhist logic influenced developments in Indian philosophical systems that later found resonance in modern Western epistemology.",
@@ -311,7 +311,7 @@
         "category": "books",
         "excerpt": "One hundred years after its publication, Hesse's novel about spiritual seeking continues to speak to contemporary readers navigating their own paths between materialism and meaning.",
         "quote": "Wisdom is not communicable. The wisdom which a wise man tries to communicate always sounds foolish.",
-        "featured_image": "/api/placeholder/800/300",
+        "featured_image": "img/article/sidarta.jpg",
         "content": [
           "Hermann Hesse's novel 'Siddhartha,' published in 1922, emerged from a period of profound personal crisis and transformation for its author. Written in the aftermath of World War I, amid the collapse of European cultural certainties, the novel traces one man's spiritual journey through asceticism, sensuality, and eventually toward a form of integrated wisdom. A century later, this slim volume continues to resonate with readers seeking authentic meaning in an increasingly complex world.",
           "The novel's enduring appeal lies partly in its careful balance between accessibility and depth. While drawing on Buddhist and Hindu concepts, Hesse presents these ideas through concrete characters and situations rather than abstract exposition. This narrative approach makes philosophical questions about meaning, desire, and self-knowledge emotionally immediate rather than merely intellectual exercises.",
@@ -330,7 +330,7 @@
         "category": "science",
         "excerpt": "Immersive technologies offer unprecedented opportunities to experience others' perspectives, but research suggests the relationship between virtual experiences and genuine empathy is more complex than initially hoped.",
         "quote": "VR can transport us into another's circumstances, but true empathy requires more than sensory immersion.",
-        "featured_image": "/api/placeholder/800/300",
+        "featured_image": "img/article/vr.png",
         "content": [
           "When filmmaker Chris Milk described virtual reality as an 'empathy machine' in his 2015 TED talk, the phrase captured the imagination of technologists, educators, and social activists. VR's ability to place users in environments and perspectives radically different from their own seemed to offer unprecedented potential for fostering understanding across social divides. A decade into this experiment, research reveals a more nuanced picture of VR's relationship to empathic understanding.",
           "The technical capabilities are undeniably powerful. Modern VR systems can simulate being in another person's body, experiencing environments from their height and perspective. They can reproduce specific sensory challenges, like the visual distortions of macular degeneration or the auditory processing difficulties associated with certain cognitive conditions. These simulations can evoke strong emotional responses that persist after the headset is removed.",
@@ -349,7 +349,7 @@
         "category": "philosophy",
         "excerpt": "Traditional Japanese gardens represent not just aesthetic achievement but philosophical insight, offering contemporary visitors lessons in impermanence, asymmetry, and the beauty of restraint.",
         "quote": "A garden is not an escape from reality but an invitation to see reality more clearly.",
-        "featured_image": "/api/placeholder/800/300",
+        "featured_image": "img/article/garden.jpg",
         "content": [
           "The Japanese garden tradition, with its carefully raked gravel, strategically placed stones, and meticulously pruned trees, represents one of the world's most sophisticated approaches to designed nature. Beyond their obvious aesthetic appeal, these gardens embody philosophical principles that offer particular resonance for contemporary life, where information overload and constant stimulation have become the norm.",
           "At the heart of Japanese garden design lies the concept of ma—the meaningful negative space that exists between objects. Where Western design traditions often emphasize filling space, Japanese gardens cultivate empty space as an essential element rather than an absence. This principle manifests in the carefully considered intervals between stones, trees, and architectural elements. The resulting sense of spaciousness invites contemplation rather than passive consumption.",
@@ -368,7 +368,7 @@
         "category": "science",
         "excerpt": "From vertical farming to alternative proteins, innovations in food production aim to reduce environmental impact while increasing resilience to climate disruptions.",
         "quote": "The most sustainable food system won't look like a return to the past or a leap into science fiction, but a thoughtful integration of traditional knowledge with appropriate technology.",
-        "featured_image": "/api/placeholder/800/300",
+        "featured_image": "img/article/agiculture.jpeg",
         "content": [
           "Our global food system stands at a critical juncture, facing unprecedented challenges from climate change while simultaneously contributing to environmental degradation through greenhouse gas emissions, water usage, and habitat destruction. The pursuit of more resilient and sustainable approaches to feeding humanity has spurred innovation across the entire food value chain, from production to distribution to consumption.",
           "Controlled environment agriculture—including vertical farms, greenhouse systems, and indoor aquaculture—offers one promising direction. These approaches can reduce water usage by up to 95% compared to conventional agriculture while eliminating the need for pesticides and dramatically reducing transportation emissions by enabling food production closer to urban centers. Companies like AeroFarms and Plenty have demonstrated commercial viability, though challenges of energy usage and initial capital costs remain significant barriers to wider adoption.",
@@ -387,7 +387,7 @@
         "category": "books",
         "excerpt": "Beyond literary merit, Shakespeare's historical plays offer nuanced perspectives on leadership, factional conflict, and power that remain remarkably relevant to contemporary political challenges.",
         "quote": "Shakespeare's political genius lies in showing us power not as it should be but as it is—wielded by flawed humans navigating competing legitimacies.",
-        "featured_image": "/api/placeholder/800/300",
+        "featured_image": "img/article/shakespeare.jpeg",
         "content": [
           "While William Shakespeare is universally acknowledged as a literary genius, his insights as a political thinker remain underappreciated outside academic circles. His history plays and tragedies offer remarkably sophisticated analyses of power, leadership, and factional conflict that speak directly to our current political moment of polarization, institutional mistrust, and democratic fragility.",
           "Shakespeare wrote during a period of significant political transformation, as England transitioned from feudal relationships toward more modern concepts of nationhood and authority. This liminal historical position allowed him to portray politics with unusual complexity, depicting multiple systems of legitimacy in tension with each other—divine right competing with competence, hereditary claims challenged by popular support, traditional authority undermined by changing social conditions.",

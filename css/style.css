@@ -418,6 +418,25 @@ nav a.active::after {
     color: var(--accent-color);
 }
 
+/* Apply drop cap only to the first paragraph */
+.article-content p.first-paragraph:first-letter {
+    font-size: 3.5em;
+    font-family: var(--font-headings);
+    line-height: 0.8;
+    float: left;
+    margin-right: 0.1em;
+    color: var(--accent-color);
+}
+
+/* Remove the previous drop cap style for all paragraphs */
+.article-content p:not(.first-paragraph):first-letter {
+    font-size: inherit;
+    line-height: inherit;
+    float: none;
+    margin-right: 0;
+    color: inherit;
+}
+
 .article-content blockquote {
     border-left: 4px solid var(--accent-color);
     padding: 1rem 1.5rem;

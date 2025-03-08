@@ -177,13 +177,21 @@ function renderArticleCards(articles, container) {
         
         // Determine the correct path for the article link based on current page
         let articlePath = 'article.html?id=' + article.id;
+        let imgPath = article.featured_image;
+        
+        // Fix image paths for category pages
         if (window.location.pathname.includes('/categories/')) {
             articlePath = '../article.html?id=' + article.id;
+            
+            // Only adjust relative paths, not absolute paths (like /api/placeholder)
+            if (imgPath.startsWith('img/')) {
+                imgPath = '../' + imgPath;
+            }
         }
         
         card.innerHTML = `
             <a href="${articlePath}" class="card-link">
-                <div class="card-image" style="background-image: url('${article.featured_image}');"></div>
+                <div class="card-image" style="background-image: url('${imgPath}');"></div>
                 <div class="card-content">
                     <div class="card-category">${article.category}</div>
                     <h3 class="card-title">${article.title}</h3>
@@ -208,20 +216,33 @@ function renderArticle(article) {
     
     if (titleElement) titleElement.textContent = article.title;
     if (metaElement) metaElement.textContent = `${article.date} • ${article.category.charAt(0).toUpperCase() + article.category.slice(1)}`;
-    if (imageElement) imageElement.style.backgroundImage = `url('${article.featured_image}')`;
+    
+    // Fix image path for featured image in article
+    let imgPath = article.featured_image;
+    if (window.location.pathname.includes('/categories/') && imgPath.startsWith('img/')) {
+        imgPath = '../' + imgPath;
+    }
+    
+    if (imageElement) imageElement.style.backgroundImage = `url('${imgPath}')`;
     
     if (contentElement) {
         contentElement.innerHTML = '';
         
-        article.content.forEach(paragraph => {
+        article.content.forEach((paragraph, index) => {
             const p = document.createElement('p');
             p.textContent = paragraph;
+            
+            // Add a class to the first paragraph to style it differently
+            if (index === 0) {
+                p.classList.add('first-paragraph');
+            }
+            
             contentElement.appendChild(p);
         });
     }
     
     // Update page title
-    document.title = `${article.title} | Your Thoughtful Space`;
+    document.title = `${article.title} | Web-Hook`;
 }
 
 // Helper function to get URL parameters
