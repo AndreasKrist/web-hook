@@ -7,7 +7,7 @@
         "category": "books",
         "excerpt": "Dostoevsky's masterpiece explores the psychological torment of guilt and the possibility of moral redemption through suffering.",
         "quote": "Pain and suffering are always inevitable for a large intelligence and a deep heart.",
-        "featured_image": "/api/placeholder/800/300",
+        "featured_image": "img/article/cnp.jpg",
         "content": [
           "In 'Crime and Punishment,' Fyodor Dostoevsky crafts a psychological masterpiece that delves into the depths of human conscience through the character of Rodion Raskolnikov. Published in 1866, the novel remains profoundly relevant as it explores timeless questions about morality, justice, and redemption.",
           "Raskolnikov's theory of the 'extraordinary man' who stands above conventional morality serves as the intellectual justification for his crime. He believes certain exceptional individuals have the right to transgress moral boundaries for the greater good. This philosophical underpinning, inspired partly by Nietzsche's concept of the Übermensch (though Dostoevsky's novel predates Nietzsche's work), sets up the central moral conflict of the novel.",
@@ -26,7 +26,7 @@
         "category": "books",
         "excerpt": "As surveillance technologies advance and information manipulation becomes more sophisticated, Orwell's dystopian vision gains renewed significance.",
         "quote": "The choice for mankind lies between freedom and happiness and for the great bulk of mankind, happiness is better.",
-        "featured_image": "/api/placeholder/800/300",
+        "featured_image": "img/article/1985.webp",
         "content": [
           "George Orwell's '1984,' published in 1949, imagined a future where truth is malleable, privacy nonexistent, and authoritarian control absolute. More than seven decades later, the novel's warnings about totalitarianism resonate with disturbing clarity in our digital age.",
           "Orwell's concept of 'doublethink'—the ability to hold two contradictory beliefs simultaneously—has become a powerful analytical tool for understanding contemporary politics. When officials make statements that contradict documented reality yet are accepted by their supporters, we see doublethink in action. The novel's insight that psychological manipulation is more effective than physical coercion has proven prescient.",
@@ -45,7 +45,7 @@
         "category": "books",
         "excerpt": "Looking beyond the Soviet allegory, Orwell's fable reveals universal patterns in how idealisms transform into new oppressions.",
         "quote": "All animals are equal, but some animals are more equal than others.",
-        "featured_image": "/api/placeholder/800/300",
+        "featured_image": "img/article/animal.jpeg",
         "content": [
           "George Orwell's 'Animal Farm,' though written as a critique of the Soviet Union under Stalin, continues to resonate as a powerful analysis of how revolutionary movements can betray their ideals. The fable's simplicity belies its profound insights into political corruption and the manipulation of language and memory.",
           "The transformation of the pigs from fellow revolutionaries to exploitative rulers unfolds with a grim inevitability that speaks to patterns seen in numerous historical contexts. From the French Revolution's descent into the Reign of Terror to the Iranian Revolution's shift from popular uprising to theocratic rule, Orwell's narrative captures something fundamental about power dynamics.",
@@ -102,7 +102,7 @@
         "category": "philosophy",
         "excerpt": "As information technologies transform the public sphere, democratic systems must evolve while preserving core principles of representation and deliberation.",
         "quote": "The question isn't whether technology will change democracy, but whether we can ensure that change strengthens rather than undermines it.",
-        "featured_image": "/api/placeholder/800/300",
+        "featured_image": "img/article/demo.jpeg",
         "content": [
           "Democracy has always been a dynamic system, evolving in response to changing social conditions. The digital revolution presents perhaps its most profound challenge since the industrial age, transforming not just how citizens communicate but how they form their political identities and understand shared reality.",
           "Traditional democratic theory assumed certain constraints on information flow—newspapers had limited space, broadcasts occurred at specific times, and geographic distance created distinct public spheres. Digital media has shattered these constraints, creating an environment of information abundance rather than scarcity, with profound implications for how democracy functions.",
