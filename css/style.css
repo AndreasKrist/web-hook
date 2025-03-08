@@ -437,6 +437,7 @@ nav a.active::after {
     box-shadow: 0 4px 12px rgba(62, 39, 35, 0.1);
     border: 1px solid var(--border-color);
     position: relative;
+    text-align: center;
 }
 
 .about-section::before {
@@ -471,6 +472,7 @@ nav a.active::after {
     max-width: 800px;
     margin: 0 auto;
     position: relative;
+    text-align: center;
 }
 
 .about-title {
@@ -480,17 +482,19 @@ nav a.active::after {
     margin-bottom: 1.5rem;
     text-align: center;
     position: relative;
-    display: inline-block;
-    left: 50%;
-    transform: translateX(-50%);
+    display: block; /* Changed from inline-block */
+    left: auto; /* Remove the left: 50% */
+    transform: none; /* Remove the transform: translateX(-50%) */
+    width: 100%; /* Full width to ensure proper centering */
 }
 
 .about-title::after {
     content: '';
     position: absolute;
     bottom: -10px;
-    left: 0;
-    width: 100%;
+    left: 50%; /* Center the underline */
+    transform: translateX(-50%); /* Center the underline */
+    width: 120px; /* Fixed width for the underline */
     height: 2px;
     background-color: var(--accent-color);
 }
@@ -516,12 +520,12 @@ nav a.active::after {
     text-align: left;
     line-height: 1.8;
     font-size: 1.05rem;
-    padding: 0 1rem;
+    padding: 0;
 }
 
 .about-bio p {
     margin-bottom: 1.5rem;
-    text-indent: 1rem;
+    text-indent: 0;
 }
 
 /* Footer */
