@@ -1,0 +1,85 @@
+/* Enhanced grid layout for better responsiveness on different screen sizes */
+.articles-grid {
+    display: grid;
+    gap: 2rem;
+    margin: 3rem 0;
+}
+
+/* Default: Mobile first - single column */
+@media (min-width: 576px) {
+    .articles-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* Small tablets (portrait) */
+@media (min-width: 768px) {
+    .articles-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Large tablets and desktops - maximum 3 columns */
+@media (min-width: 992px) {
+    .articles-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* iPad-specific fix for better layout */
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) {
+    .articles-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Adjust for iPad Pro */
+@media only screen 
+and (min-device-width: 1024px) 
+and (max-device-width: 1366px) {
+    .articles-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Fix for home page layout with multiple category sections */
+@media (min-width: 768px) and (max-width: 1200px) {
+    .section-header {
+        margin: 3rem 0 1.5rem;
+    }
+    
+    .articles-grid {
+        margin: 1.5rem 0;
+    }
+    
+    .card-image {
+        height: 160px;
+    }
+    
+    .card-content {
+        padding: 1.2rem;
+    }
+    
+    .card-title {
+        font-size: 1.2rem;
+        line-height: 1.4;
+    }
+    
+    .card-excerpt {
+        margin-bottom: 1rem;
+        font-size: 0.9rem;
+        line-height: 1.5;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+    
+    .card-quote {
+        margin-bottom: 1rem;
+        padding: 0.6rem 0.8rem;
+        font-size: 0.85rem;
+    }
+}
