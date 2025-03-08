@@ -3,6 +3,9 @@ document.addEventListener('DOMContentLoaded', function() {
     // Apply active class to current navigation item
     highlightCurrentNav();
     
+    // Initialize hamburger menu for mobile
+    initMobileNav();
+    
     // Initialize content based on the current page
     const currentPage = getCurrentPage();
     
@@ -15,13 +18,37 @@ document.addEventListener('DOMContentLoaded', function() {
         if (articleId) {
             loadArticle(articleId);
         } else {
-            window.location.href = 'index.html';
+            window.location.href = './index.html';
         }
     } else if (['books', 'philosophy', 'story', 'science'].includes(currentPage)) {
         // Load category articles
         loadCategoryArticles(currentPage);
     }
 });
+
+// Initialize mobile navigation
+function initMobileNav() {
+    const hamburgerMenu = document.getElementById('hamburger-menu');
+    
+    if (hamburgerMenu) {
+        hamburgerMenu.addEventListener('click', function() {
+            console.log('Hamburger menu clicked');
+            this.classList.toggle('menu-active');
+            document.querySelector('nav').classList.toggle('menu-open');
+        });
+        
+        // Close menu when clicking a link
+        const navLinks = document.querySelectorAll('.desktop-nav a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                hamburgerMenu.classList.remove('menu-active');
+                document.querySelector('nav').classList.remove('menu-open');
+            });
+        });
+    } else {
+        console.error('Hamburger menu element not found');
+    }
+}
 
 // Get the current page name from the URL
 function getCurrentPage() {
@@ -58,13 +85,18 @@ function highlightCurrentNav() {
 
 // Load articles for the home page
 function loadFeaturedArticles() {
-    fetch('data/articles.json')
+    // Adjust path to JSON file based on current location
+    const jsonPath = window.location.pathname.includes('/categories/') 
+        ? '../data/articles.json' 
+        : 'data/articles.json';
+        
+    fetch(jsonPath)
         .then(response => response.json())
         .then(data => {
             // Get container for each category section
             const booksContainer = document.getElementById('books-articles');
             const philosophyContainer = document.getElementById('philosophy-articles');
-            const thoughtsContainer = document.getElementById('thoughts-articles');
+            const storyContainer = document.getElementById('story-articles');
             const scienceContainer = document.getElementById('science-articles');
             
             // Filter articles by category and limit to 3 per category
@@ -76,7 +108,7 @@ function loadFeaturedArticles() {
             // Render articles to their respective containers
             renderArticleCards(booksArticles, booksContainer);
             renderArticleCards(philosophyArticles, philosophyContainer);
-            renderArticleCards(storyArticles, document.getElementById('story-articles'));
+            renderArticleCards(storyArticles, storyContainer);
             renderArticleCards(scienceArticles, scienceContainer);
         })
         .catch(error => {
